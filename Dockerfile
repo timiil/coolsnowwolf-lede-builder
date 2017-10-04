@@ -1,7 +1,7 @@
 FROM ubuntu:14.04
 MAINTAINER timiil@163.com
 
-#用于coolsnowwolf/lede源码项目的编译镜像
+#用于coolsnowwolf/lede源码项目的编译构建
 
 RUN \
   apt-get update && \
