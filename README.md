@@ -10,6 +10,6 @@ docker run -it -v /home/lede_output:/lede/bin timiil/coolsnowwolf-lede-builder
 make menuconfig
 
 ...
-
+make -j8 download V=s
 make -j1 V=s
 ```
